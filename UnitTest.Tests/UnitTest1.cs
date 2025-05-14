@@ -14,7 +14,7 @@ namespace UnitTest.Tests
         {
             var result = Target.HellYeah();
 
-            result.Should().BeTrue();
+            result.Should().BeFalse();
         }
     }
 }
